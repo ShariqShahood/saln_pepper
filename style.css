@@ -1,0 +1,619 @@
+body {
+  background-color: black;
+}
+@font-face {
+  font-family: "Futurak";
+  src: url(fonts/futurak.ttf);
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: #FFFFFF;
+}
+
+.header {
+  margin-top: -0.9%;
+  background-color: black;
+  width: 100%;
+  height: 15%;
+}
+
+.edit {
+  color: white;
+  text-indent: 30px;
+}
+
+.edit:hover {
+  color: red;
+}
+
+.logoimage {
+  text-indent: 45px;
+}
+
+.b1 {
+  border-color: white;
+  color: white;
+  border-radius: 40px;
+  height: 50px;
+  width: 115px;
+  background-color: transparent;
+}
+
+.b2 {
+  border-color: red;
+  color: white;
+  background-color: red;
+  border-radius: 40px;
+  height: 50px;
+  width: 140px;
+}
+
+#btn1 {
+  color: red;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+}
+
+.span {
+  width: 50%;
+}
+
+/* (slideshow) */
+* {
+  box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 5000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: red;
+  font-size: 12px;
+  padding: 8px 20px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+h1 {
+  font-family: Arial Narrow;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 200%;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+}
+
+.design {
+  font-size: 140%;
+  letter-spacing: -0.5px;
+  font-family:  "Futurak";
+  color: #FFFFFF;
+
+}
+
+.t1 {
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-family: Arial Narrow;
+  text-align: center;
+  color: rgb(161, 158, 158);
+}
+
+.edit1 {
+  padding-block-end: 15px;
+  margin-left: 70px;
+  margin-right: 650px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.edit2 {
+  margin-top: -125px;
+  padding-block-end: 15px;
+  margin-left: 365px;
+  margin-right: 360px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.edit3 {
+  margin-top: -125px;
+  padding-block-end: 15px;
+  margin-left: 655px;
+  margin-right: 70px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.buttons {
+  margin-left: -40px;
+  border-radius: 20px;
+  padding: 19px;
+}
+
+.indent {
+  text-indent: 150px;
+}
+
+.btndesign1 {
+  height: 50px;
+  width: 140px;
+  border-radius: 40px;
+  background-color: transparent;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.heading {
+  font-size: 340%;
+  letter-spacing: -0.5px;
+  font-family: "Futurak";
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.heading1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: butler;
+  margin-top: -50px;
+}
+
+.first-section {
+  position: relative;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 70px;
+}
+
+.txt1 {
+  margin-top: -20px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-family: Arial Narrow;
+  color: rgb(161, 158, 158);
+}
+
+.des {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color: red;
+  letter-spacing: 7px;
+}
+
+h2 {
+  margin-top: -20px;
+  font-family: Arial Narrow;
+  font-weight: lighter;
+  font-size: 180%;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+}
+
+.des1 {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Futurak";
+  color: #FFFFFF;
+  letter-spacing: -0.5px;
+}
+
+.para {
+  letter-spacing: 1.5px;
+  font-family: Arial Narrow;
+  font-weight: 800;
+  font-size: medium;
+  margin-left: 30px;
+  margin-top: -20px;
+  color: rgb(161, 158, 158);
+}
+
+.bt2 {
+  border-color: rgb(161, 158, 158);
+  color: white;
+  background-color: transparent;
+  border-radius: 40px;
+  height: 40px;
+  width: 150px;
+}
+
+#btn2 {
+  color: red;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+}
+
+.im {
+  margin-top: -240px;
+  margin-left: 440px;
+}
+
+.loc-faisalabad {
+  margin-left: 440px;
+}
+
+.im1 {
+  margin-top: -240px;
+}
+
+.im2 {
+  margin-top: -240px;
+  margin-left: 440px;
+}
+
+.second-section {
+  height: 185%;
+  margin-right: -80px;
+  margin-left: -80px;
+  background-image: url('second-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.heading2 {
+  font-size: 340%;
+  letter-spacing: -0.5px;
+  font-family: "Futurak";
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.heading3 {
+  text-align: center;
+  font-size: 50px;
+  font-family: butler;
+  margin-top: -50px;
+}
+
+.ima1 {
+  margin-left: 80px;
+}
+
+.des2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 11px;
+  margin-left: 40px;
+  color: red;
+  letter-spacing: 7px;
+}
+
+.des3 {
+  margin-left: 12px;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Futurak";
+  color: #FFFFFF;
+  letter-spacing: -0.5px;
+}
+
+.para1 {
+  letter-spacing: 1.5px;
+  font-family: Arial Narrow;
+  font-weight: 700;
+  font-size: small;
+  margin-left: 50px;
+  margin-top: -15px;
+  color: rgb(161, 158, 158);
+}
+
+.para2 {
+  letter-spacing: 1.5px;
+  font-family: Arial Narrow;
+  font-weight: 700;
+  font-size: small;
+  margin-left: 80px;
+  margin-top: -15px;
+  color: rgb(161, 158, 158);
+}
+
+.bt3 {
+  margin-left: 60px;
+  border-color: rgb(161, 158, 158);
+  color: white;
+  background-color: transparent;
+  border-radius: 40px;
+  height: 40px;
+  width: 150px;
+}
+
+#btn3 {
+  margin-left: -10px;
+  color: red;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+}
+
+.editing {
+  margin-top: -409px;
+  margin-left: 300px;
+}
+
+.editing1 {
+  margin-top: -409px;
+  margin-left: 300px;
+}
+
+.editing2 {
+  margin-top: 30px;
+  margin-left: -450px;
+}
+
+.editing3 {
+  margin-top: -408px;
+  margin-left: 350px;
+}
+
+.third-section {
+  position: relative;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 70px;
+}
+
+.heading4 {
+  margin-top: -80px;
+  font-size: 340%;
+  letter-spacing: -0.5px;
+  font-family: "Futurak";
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.heading5 {
+  text-align: center;
+  font-size: 50px;
+  font-family: butler;
+  margin-top: -50px;
+}
+
+.loc-village {
+  margin-left: 440px;
+}
+
+.im1-1 {
+  margin-left: -100px;
+  margin-top: -250px;
+}
+
+.bt4 {
+  border-color: rgb(50, 180, 50);
+  color: white;
+  background-color: rgb(50, 180, 50);
+  border-radius: 40px;
+  height: 50px;
+  width: 160px;
+}
+
+#btn4 {
+  color: rgb(50, 180, 50);
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+}
+
+.fourth-section {
+  height: 185%;
+  margin-top: -90px;
+  margin-right: -80px;
+  margin-left: -80px;
+  background-image: linear-gradient(to bottom right, rgba(156, 12, 12, 0.719), black, black, rgba(97, 6, 6, 0.719));
+}
+
+.heading6 {
+  margin-top: -80px;
+  font-size: 300%;
+  letter-spacing: -0.5px;
+  font-family: "Futurak";
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.heading7 {
+  text-align: center;
+  font-size: 30px;
+  font-family: butler;
+  margin-top: -30px;
+}
+
+/* card-1 */
+.card1 {
+  border-radius: 5px;
+  margin-left: 180px;
+  width: 250px;
+  height: 270px;
+  background-color: #FFFFFF;
+}
+
+.cardimg1 {
+  margin-left: 100px;
+}
+
+.paracolor {
+  font-weight: lighter;
+  font-family: arial;
+  letter-spacing: 3px;
+  font-size: 10px;
+  margin-left: -30px;
+  color: red;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: -10px;
+  margin-left: -45px;
+}
+
+.parades {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  margin-left: -10px;
+
+}
+
+.parades1 {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: -30px;
+  text-align: center;
+}
+
+.parades2 {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  margin-left: -15px;
+}
+
+.card2 {
+  margin-top: -270px;
+  border-radius: 5px;
+  margin-left: 460px;
+  width: 250px;
+  height: 270px;
+  background-color: #FFFFFF;
+}
+
+.card3 {
+  margin-top: -270px;
+  border-radius: 5px;
+  margin-left: 740px;
+  width: 250px;
+  height: 270px;
+  background-color: #FFFFFF;
+}
+
+.card4 {
+  margin-top: 30px;
+  border-radius: 5px;
+  margin-left: 315px;
+  width: 250px;
+  height: 270px;
+  background-color: #FFFFFF;
+}
+
+.card5 {
+  margin-top: -270px;
+  border-radius: 5px;
+  margin-left: 600px;
+  width: 250px;
+  height: 270px;
+  background-color: #FFFFFF;
+}
+
+.headdesign {
+  font-family: butler;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 80px;
+  color: #FFFFFF;
+}
+
+.images {
+  margin-left: 90px;
+  letter-spacing: 10px;
+}
+
+.footer {
+  position: relative;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 90px;
+  height: 80%;
+}
+
+.footer-logo {
+  margin-left: -50px;
+}
+
+.foot-para {
+  margin-left: -50px;
+  width: 280px;
+  color: rgb(161, 158, 158);
+  font-family: arial narrow;
+}
+
+.foot-cond {
+  margin-left: -50px;
+  width: 280px;
+  color: rgb(161, 158, 158);
+  font-family: arial narrow;
+
+}
+
+.site-link {
+  margin-top: -280px;
+  margin-left: 290px;
+}
+
+#st {
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+
+#site {
+  width: 110%;
+  font-family: arial narrow;
+  color: rgb(161, 158, 158);
+}
+
+.f-im {
+  margin-top: -210px;
+  margin-left: 702px;
+  letter-spacing: 5px;
+}
+
+.tags {
+  margin-left: 700px
+}
+
+.back-logo {
+  opacity: -100px;
+  margin-left: -80px;
+  margin-top: -210px
+}
+
+.foot-tag {
+  color: rgb(161, 158, 158);
+  font-family: arial narrow;
+}
+
+.foot-poweredby {
+  margin-left: 450px;
+}
